@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom:3px solid rgb(198, 198, 13);
+
+}
+img{
+    margin-top:20px;
+}
+body{
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    color:white;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Fredoka", serif;
+}
+.AURA{
+    padding: 20px 0 0 0;
+    margin: 0px 300px 0px 300px;
+}
+.fig{
+    padding-top: 20px;
+}
+.para{
+    margin: 0px 300px 0px 300px;
+}
+.grey img{
+    margin: 30px 0px 0px 0px;
+}
+#greycar{
+    padding-bottom: 20px;
+    border-bottom:3px solid rgb(198, 198, 13);
+   
+}
+#greycars{
+    display: flex;
+    justify-content: space-around; 
+    margin: 20px 0 0px; 
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    background-color:rgb(228, 228, 106);
+    
+}
+
+#blackcar{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-bottom:3px solid rgb(198, 198, 13);
+  
+}
+#blackcars{
+    display: flex;
+    justify-content: space-around; 
+    margin: 20px 0; 
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    background-color:rgb(228, 228, 106);
+}
+
+#redcar{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-bottom:3px solid rgb(198, 198, 13);
+   
+}
+#redcars{
+    display: flex;
+    justify-content: space-around; 
+    margin: 20px 0 0px; 
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    background-color:rgb(228, 228, 106);
+    
+}
+#bluecar{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-bottom:3px solid rgb(198, 198, 13);
+   
+}
+#bluecars{
+    display: flex;
+    justify-content: space-around; 
+    margin: 20px 0 0px; 
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    background-color:rgb(228, 228, 106);
+    
+}
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .AURA {
+        margin: 0 20px; 
+    }
+
+    #greycars, #blackcars, #redcars, #bluecars {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    figure img {
+        width: 90%;
+        height: auto; 
+    }
+
+    h2 {
+        font-size: 24px; 
+    }
+
+    .para {
+        margin: 0 20px;
+    }
+}
+
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    .AURA {
+        margin: 0 50px;
+    }
+
+    #greycars, #blackcars, #redcars, #bluecars {
+        flex-direction: row; 
+        justify-content: space-around; 
+    }
+
+    figure img {
+        width: 80%; 
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .para {
+        margin: 0 50px;
+    }
+}

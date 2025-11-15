@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body {
+    background-image: url(bg\ 1.jpeg);
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Fredoka", serif;
+   
+}
+
+h1 {
+    margin-left: 95px;
+    margin-top: 30px;
+    padding: 16px;
+    margin-right: 1040px;
+}
+#para{
+    text-align: center;
+    background-color: yellow;
+    color:black ;
+    margin: 50px 400px 50px 310px;
+}
+img {
+    margin-left: 30px;
+}
+
+nav {
+    text-align: right;
+    margin-top: -65px;
+    font-weight: 600;
+}
+
+nav a {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+nav a:hover {
+    color: rgb(198, 198, 13);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(198, 198, 13);
+    color: black;
+    position: relative;
+    top: 900px;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px)/*mobile*/ {
+    body{
+        background-image: cover;
+        background-attachment: fixed;  
+        background-repeat: no-repeat;
+        background-image: url(phonebg.jpg);
+    }
+
+    h1 {
+        margin-left: 10px; /* Adjust left margin for smaller screens */
+        margin-right: 10px; /* Adjust right margin for smaller screens */
+        text-align: center; /* Center the heading */
+    }
+
+    nav {
+        text-align: center; /* Center the navigation links */
+        margin-top: 10px; /* Adjust margin for better spacing */
+        
+    }
+
+    nav a {
+        display: inline-block; /* Keep links inline for smaller screens */
+        padding: 10px 5px; /* Adjust padding for better touch targets */
+
+    }
+
+    footer {
+        position: relative; /* Change position to relative for better flow */
+        top: 200px; /* Reset top position */
+        padding: 20px 0; /* Add padding for footer */
+    }
+    footer a{
+      display: inline-block;
+    }
+
+}
+
+@media (max-width: 1024px) /*tab*/{
+    body{
+        background-image: cover;
+        background-attachment: fixed;  
+        background-repeat: no-repeat;
+        background-image: url(phonebg2.jpg);
+    }
+    h1 {
+        margin-left: 30px; /* Adjust left margin for tablets */
+        margin-right: 30px; /* Adjust right margin for tablets */
+        text-align: center; /* Center the heading */
+    }
+
+    nav {
+        text-align: center; /* Center the navigation links */
+        margin-top: 10px; /* Adjust margin for better spacing */
+       
+    }
+
+    nav a {
+        display: inline-block; /* Keep links inline for tablets */
+        padding: 10px 5px; /* Adjust padding for better touch targets */
+        color: black;
+        background-color: rgb(198, 198, 13);
+
+    }
+    nav a:hover{
+    color: rgb(77, 75, 75);
+    }
+    footer {
+        position: relative; /* Change position to relative for better flow */
+        top: 470px; /* Reset top position */
+        padding: 15px 0; /* Add padding for footer */
+    }
+    footer a{
+        display: inline-block;
+  }
+}
