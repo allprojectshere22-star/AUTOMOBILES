@@ -138,3 +138,6 @@ Vercel will automatically build and provide a production URL.
 
 This project is developed for academic and demonstration purposes by NISSI FEDORA X.
 
+## Note
+this project was solely done by nissi fedora without any usage of AI or other tools.
+
